@@ -157,9 +157,3 @@ class YouTube:
         except Exception as e:
             print(f"An error occurred: {e}")
 
-
-if __name__ == '__main__':
-    yt = YouTube()
-    # Example:
-    # source_playlist_id, destination_playlist_name = 'SOURCE_PLAYLIST_ID', 'DESTINATION_PLAYLIST_NAME'
-    # yt.run(source_playlist_id, destination_playlist_name)
